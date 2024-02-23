@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta</title>
+</head>
+<body>
+
+<script>
+    // Función para mostrar la pregunta y opciones al cargar la página
+    window.onload = function () {
+        var respuesta = confirm("¿hola ana, ya no estas cansada? Lo resolvemos??");
+        
+        if (respuesta) {
+            alert("Excelente, ¡vamos a resolverlo!");
+            // Agrega un mensaje de agradecimiento al cuerpo de la página
+            document.body.innerHTML += "<h1>no quiero que el estar cansados acabe con los sentimientos que nos tenemos, se que estas cansada y espero entiendas que yo igual lo estoy, pero no quiero que sigamos peleados a un punto que escale en terminar la relacion, igual si quieres un tiempo no me lo tomare a mal. posdata: teamo. atte: arturo</h1>";
+        } else {
+            alert("Entendido, ¡hagámoslo en otro momento!");
+        }
+    };
+</script>
+
+</body>
+</html>
